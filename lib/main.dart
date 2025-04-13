@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:tool_outomate/bloc/map_bloc.dart';
 import 'package:tool_outomate/src/ui/map_screen.dart';
+import 'package:tool_outomate/src/ui/theme/app_theme.dart';
 import 'src/ui/home_screen.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Maps Integration Tool',
-      theme: ThemeData(primarySwatch: Colors.indigo),
+      theme: AppTheme.getThemeData(),
       routes: {
         '/': (_) => BlocProvider(
               create: (_) => MapBloc(),
