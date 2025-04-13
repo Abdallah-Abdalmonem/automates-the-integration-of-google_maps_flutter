@@ -17,9 +17,10 @@ A Flutter desktop tool that **automates** the integration of `google_maps_flutte
 
 ## 📸 Screenshots
 
-| Project Selection | API Key Prompt | Google Map View |
-|-------------------|----------------|-----------------|
-| ![Select Folder](assets/select_project.png) | ![API Dialog](assets/api_key_dialog.png) | ![Google Map](assets/map_screen.png) |
+![Select Folder](assets/s1.jpg) 
+![API Dialog](assets/s2.jpg) 
+![Google Map](assets/s3.jpg) 
+![Google Map](assets/s4.jpg) 
 
 ---
 
