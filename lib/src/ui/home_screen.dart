@@ -10,7 +10,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('HeyFlutter Integration Tool')),
+      appBar: AppBar(title: const Text('Flutter Maps Integration Tool')),
       body: Padding(
         padding: const EdgeInsets.all(20),
         child: Column(

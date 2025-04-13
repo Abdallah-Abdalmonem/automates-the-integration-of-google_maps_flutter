@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Maps Integration Tool',
       theme: ThemeData(primarySwatch: Colors.indigo),
       routes: {
